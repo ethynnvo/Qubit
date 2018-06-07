@@ -1,0 +1,86 @@
+html, body {
+    width: 100%;
+    height:100%;
+}
+.mainColour {
+    background: #274A31;
+}
+
+.secondaryColour {
+    background: #FFFFFF;
+}
+
+
+.wrapper {
+    width: 95%;
+    padding-top: 3%;
+}
+
+.boxShadow {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+.background {
+    background-image: url("images/background.jpg");
+    background-repeat: none;
+    background-position: center;
+}
+
+.padding {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-color: #FFFFFF;
+    width: 350px;
+}
+
+.hr2 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-color: #F5F5F5;
+    width: 350px;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #23D160; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.margin {
+    margin: auto;
+}
+
+.footerHeight {
+    height: 90px;
+}
