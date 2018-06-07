@@ -84,3 +84,7 @@ html, body {
 .footerHeight {
     height: 90px;
 }
+
+a.a:link {
+    text-decoration: none;
+}
