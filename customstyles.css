@@ -86,3 +86,7 @@ html, body {
 a.a:link {
     text-decoration: none;
 }
+
+.aligned {
+    vertical-align: text-bottom;
+}
