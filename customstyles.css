@@ -90,3 +90,6 @@ a.a:link {
 .aligned {
     vertical-align: text-bottom;
 }
+.topBorder {
+    border-top: 100px solid transparent;
+}
